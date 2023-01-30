@@ -17,6 +17,6 @@ public class Employee {
 	
 	private String lastName;
 	
-	private String Email;
+	private String email;
 
 }
