@@ -3,12 +3,12 @@ package com.employee.management.model;
 import javax.persistence.*;
 import lombok.*;
 
-@Entity
-@Table(name="employee")
+@Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter @Setter
-@ToString
+@Entity
+@Table(name="employee")
 public class Employee {
 
 	@Id
